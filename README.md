@@ -5,6 +5,9 @@ Get Spell Correction API from xSpell.tk
 
 Use This code to get output
 
+
+<?
+
 $xt = "Token Issued By xSpell";
 
 $xs = "Word Or Sentence To Check Spelling";
@@ -24,3 +27,5 @@ curl_setopt($x,CURLOPT_URL,$xu);
 curl_setopt($x,CURLOPT_RETURNTRANSFER,1);
 
 $output = curl_exec($x);
+
+?>
