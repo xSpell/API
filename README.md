@@ -5,7 +5,7 @@ Get Spell Correction API from xSpell.tk
 
 Use This code to get output
 
-
+```php
 <?
 
 $xt = "Token Issued By xSpell";
@@ -29,3 +29,4 @@ curl_setopt($x,CURLOPT_RETURNTRANSFER,1);
 $output = curl_exec($x);
 
 ?>
+```
