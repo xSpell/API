@@ -12,7 +12,7 @@ $xt = "Token Issued By xSpell";
 
 $xs = "Word Or Sentence To Check Spelling";
 
-$xu = "http://xspell.tk";
+$xu = "http://xspell.ga";
 
 $xp = "api=spell&token=$xt&check=$xs";
 
